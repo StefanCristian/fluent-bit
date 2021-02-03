@@ -45,7 +45,7 @@ DEPENDS += "systemd"
 EXTRA_OECMAKE += "-DFLB_IN_SYSTEMD=On "
 
 # HTTP input plugin requires FLB_HTTP_SERVER=On.
-DEXTRA_OECMAKE += "-DLB_HTTP_SERVER=On "
+EXTRA_OECMAKE += "-DLB_HTTP_SERVER=On "
 
 # Kafka Output plugin (disabled by default): note that when
 # enabling Kafka output plugin, the backend library librdkafka
